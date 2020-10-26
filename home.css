@@ -452,7 +452,11 @@ border: 3px solid #ccc8c8;
 background: #f2eae6;
 padding: 1em 1.5em;
 border-radius: 1em;
+margin-bottom: 2em;
 }
+    .showroom_contact {
+        font-weight: bold;
+    }
 @media screen and (max-width:767px){
 .showroom_in {
 margin:12% auto;
@@ -511,6 +515,12 @@ width: 7em;
 #showroom_map dl dd .showroom_info_txt table tr:not(:last-child) td {
 padding-bottom: .75em;
 }
+    .showroom_access_item:not(:last-child) {
+        margin-bottom: 0.75em;
+    }
+    .showroom_access_item {
+        line-height: 1.6;
+    }
 @media screen and (max-width:767px){
 #showroom_map {
 width: 90%;
