@@ -395,29 +395,37 @@ width:94%;
 }
 
 /*ボタン*/
-figure.btn {
+div.btn {
 margin: 3vw auto 0;
+text-align: center;
 }
-figure.btn a{
+div.btn a{
 display: inline-block;
-width: 25vw;
+width: 20vw;
 line-height: 1em;
 background: #f3b44b;
 border: 3px solid #ef9c12;
+    border-radius: .8rem;
 color: #fff;
 font-family: heisei-kaku-gothic-std, sans-serif;
 font-weight:bold;
 padding: 2.8vw 0;
+    text-align: center;
 transition: .3s;
 }
-figure.btn a:hover{
+div.btn a:hover{
 background: #ef9c12;
 }
+div.btn02 a {
+    font-size: 1.2vw;
+    line-height: 0.3em;
+    width: 12vw;
+}
 @media screen and (max-width:767px){
-figure.btn {
+div.btn {
 margin: 6vw auto 0;
 }
-figure.btn a{
+div.btn a{
 width: 50%;
 border:0.33vw solid #ef9c12;
 padding:3vw;
