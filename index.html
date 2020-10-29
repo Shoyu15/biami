@@ -12,24 +12,9 @@
     <link rel="stylesheet" href="https://Shoyu15.github.io/biami/text.css"/>
     <link rel="stylesheet" href="https://Shoyu15.github.io/biami/home.css"/>
     
-<script type="text/javascript" src="js/jquery.js"></script>
-<!--平成フォント-->
-<script>
-(function(d) {
-var config = {
-kitId: 'uju1vqi',
-scriptTimeout: 3000,
-async: true
-},
-h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-})(document);
-</script>
-
-<!--ページ内スクロール-->
-<script type="text/javascript" src="js/smoothScroll.js"></script>
-
 <!--スライダー-->
 <link href="js/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
 <script src="js/jquery.bxslider.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
@@ -51,7 +36,7 @@ pagerCustom: '.showroom_place, .showroom_pager'
 <header>
     <div id="header">
         <dl>
-            <dt><img src="logo.jpg" alt="logo"></dt>
+            <dt><img src="images/common/logo.jpg" alt="logo"></dt>
             <dd>
                 <div class="smp_menu_btn"><span></span></div><!--smp_menu_btn-->
                 <div class="smp_nav">
@@ -67,7 +52,7 @@ pagerCustom: '.showroom_place, .showroom_pager'
                         <li><a href="#">導入事例</a></li>
                         <li><a href="#">お役立ち情報</a></li>
                         <li><a href="#">お問い合わせ</a></li>
-                        <li class="smp tel"><a href="tel:000-0000-0000"><span class="ico"><img src="images/common/tel_ico.png"></span>000-0000-0000</a></li>
+                        <li class="smp tel"><a href="tel:0120-048-067"><span class="ico"><img src="images/common/tel_ico.png"></span>0120-048-067</a></li>
                     </ul>
                 </div><!--smp_nav-->
             </dd>
@@ -77,17 +62,15 @@ pagerCustom: '.showroom_place, .showroom_pager'
 <!--ヘッダー-->
 
 
-    
-
 
 <!--コンテンツ-->
 <div id="content">
     <section id="mv">
         <h1>【介護浴槽】シャワー入浴専門ブランド<br>「<span class="biami">美浴</span>」が入浴を変えます。</h1>
         <dl>
-            <dt><figure><img src="mv_img.png" alt="美浴イメージ図"></figure></dt>
+            <dt><figure><img src="images/home/mv_img.png" alt="美浴イメージ図"></figure></dt>
             <dd>
-                <p>わたしたちエア・ウォーターが開発した「<span class="biami">美浴</span>」は<br>看護・介護環境における⼈⼿不⾜・介助者の<br>⼤きな負担・コスト⾯等での課題を解決いたします。<br>
+                <p>わたしたちエア・ウォーターが開発した<span class="biami biami-small">「美浴」</span>は<br>看護・介護環境における⼈⼿不⾜・介助者の<br>⼤きな負担・コスト⾯等での課題を解決いたします。<br><br>
                 ⼊浴者の最⾼の笑顔を実現しつつ、<br>介助者の介助時間短縮、経営者の経営コスト軽減、<br>⼈⼿不⾜解消を支援します。</p>
                 <div class="btn"><a href="#">商品資料ダウンロード</a></div>
             </dd>
@@ -96,8 +79,8 @@ pagerCustom: '.showroom_place, .showroom_pager'
 
 
 
-    <section class="section-wrapper">
-    <h2 class="lead">「<span class="biami">美浴</span>」だから実現できるこだわり<br>身体全体を包み込む⾄⾼のシャワー⼊浴</h2>
+    <section class="emotion section-wrapper fadeIn01">
+    <h2 class="lead"><span class="biami">「美浴」</span>だから実現できるこだわり<br>身体全体を包み込む⾄⾼のシャワー⼊浴</h2>
     <p class="center lead-sub">リラックスさにこだわった快適空間。<br>
     独⾃のミストシャワーとドーム構造によるサウナ効果で、<br>⼊浴者の⾝体をしっかりと温め、お湯に包まれるような⼊浴感を演出します。<br>
     身体の露出を減らしてプライバシーに配慮し、<br class="smp">静⽔圧もかからないため、⾝体への負担も軽減。<br>
@@ -112,7 +95,7 @@ pagerCustom: '.showroom_place, .showroom_pager'
         <h2>美浴シリーズの4つの特徴</h2>
         <ul class="point">
             <li>
-                <dl class="section-wrapper">
+                <dl class="section-wrapper fadeIn slide-bottom">
                     <dt>
                         <h3>⼊浴者の快適さを追求<br>
                         熱を逃さないサウナのような空間に<br>体を包みこむ上質なミストシャワー</h3>
@@ -120,12 +103,12 @@ pagerCustom: '.showroom_place, .showroom_pager'
                         お湯にもつからず静⽔圧もかからない仕様に加え、<br>ミストシャワーが身体に優しい⼊浴をご提供します。</p>
                     </dt>
                     <dd>
-                        <img src="point01.jpg" alt="美浴の特徴 ミストシャワー">
+                        <img src="images/home/point01.jpg" alt="美浴の特徴 ミストシャワー">
                     </dd>
                 </dl>
             </li>
             <li>
-                <dl class="section-wrapper">
+                <dl class="section-wrapper fadeIn slide-bottom">
                     <dt>
                         <h3>介助者の負担軽減<br>
                         介助環境を⼤幅に改善できる設計</h3>
@@ -133,30 +116,31 @@ pagerCustom: '.showroom_place, .showroom_pager'
                         湯気や湿気も浴室にこもりにくく、マスクをしながら介助も可能。<br>
                         ⼊浴者の溺れ・誤飲の⼼配もないため、<br>安⼼した介助環境をご⽤意できます。</p>
                     </dt>
-                    <dd><img src="point02.jpg" alt="美浴の特徴 介助者"></dd>
+                    <dd><img src="images/home/point02.jpg" alt="美浴の特徴 介助者"></dd>
                 </dl>
             </li>
             <li>
-                <dl class="section-wrapper">
+                <dl class="section-wrapper fadeIn slide-bottom">
                     <dt>
                         <h3>経営⾯の課題も解決<br>コスト削減と⼈⼿不⾜解消を実現</h3>
                         <p class="mincho">貯湯式に対して約3分の1程度の湯量で済むため、<br>上下⽔道料⾦や光熱費を⼤幅削減。<br>
                         介助時間の軽減により介助⼈数削減。<br>
                         ⼀⼈あたりの⼊浴時間も削減でき、⼊浴者増加も可能。<br>
                         ⼊浴者・介助者・経営者、<br>3者にとっての満⾜度を追求しました。</p>
-                        <figure class="btn"><a href="#">ランニングコスト削減の具体例</a></figure>
+                        
                     </dt>
-                    <dd><img src="point03.jpg" alt="美浴の特徴 経営者"></dd>
+                    <dd><img src="images/home/point03.jpg" alt="美浴の特徴 経営者"></dd>
                 </dl>
+                <div class="btn"><a href="#running-cost">ランニングコスト削減の具体例</a></div>
             </li>
             <li>
-                <dl class="section-wrapper">
+                <dl class="section-wrapper fadeIn slide-bottom">
                     <dt>
                         <h3>密閉・密集・密接を防ぎ、<br>感染対策に貢献</h3>
                         <p class="mincho">常に新しいお湯を使⽤するため交差感染を防⽌。<br>
                         ⼊浴時間と介助⼈数の削減により密集を防ぎ、<br>ボディシャンプー機能による洗⾝で近距離接触を軽減します。</p>
                     </dt>
-                    <dd><img src="point04.jpg" alt="美浴の特徴 感染対策"></dd>
+                    <dd><img src="images/home/point04.jpg" alt="美浴の特徴 感染対策"></dd>
                 </dl>
             </li>
         </ul>
@@ -166,47 +150,44 @@ pagerCustom: '.showroom_place, .showroom_pager'
 
     <section id="product">
         <h2>美浴シリーズの商品案内</h2>
-        <ul class="product">
-            <li>
-                <p>ストレッチャー式シャワー<br class="smp">⼊浴装置<span>「NS5000」</span></p>
-                <figure class="img"><img src="product01_img.png" alt="商品案内-NS5000"></figure>
-                <div class="btn btn02"><a href="#">商品詳細を見る</a></div>
+        <ul class="product fadeIn slide-bottom">
+            <li class="product-item">
+                <a href="" class="product-link01">
+                    <p>ストレッチャー式シャワー<br class="smp">⼊浴装置<span>「NS5000」</span></p>
+                    <figure class="img"><img src="images/home/product01_img.png" alt="商品案内-NS5000"></figure>
+                </a>
             </li>
-            <li>
+            <li class="product-item">
+                <a href="" class="product-link02">
                 <p>リクライニング式シャワー<br class="smp">⼊浴装置<span>「NB2500」</span></p>
-                <figure class="img"><img src="product02_img.png" alt="商品案内-NB2500"></figure>
-                <div class="btn btn02"><a href="#">商品詳細を見る</a></div>
+                <figure class="img"><img src="images/home/product02_img.png" alt="商品案内-NB2500"></figure>
+                </a>
             </li>
-            <li>
+            <li class="product-item">
+                <a href="" class="product-link03">
                 <p>⾞イス式シャワー<br class="smp">⼊浴装置<span>「RS-05N」</span></p>
-                <figure class="img"><img src="product03_img.png" alt="商品案内-RS-50N"></figure>
-                <div class="btn btn02"><a href="#">商品詳細を見る</a></div>
+                <figure class="img"><img src="images/home/product03_img.png" alt="商品案内-RS-50N"></figure>
+                </a>
             </li>
-            <li>
+            <li class="product-item">
+                <a href="" class="product-link04">
                 <p>介護⽤コンパクトシャワー<br class="smp">⼊浴装置<span>「シャワーオール」</span></p>
-                <figure class="img"><img src="product04_img.png" alt="商品案内-シャワーオール"></figure>
-                <div class="btn btn02"><a href="#">商品詳細を見る</a></div>
+                <figure class="img"><img src="images/home/product04_img.png" alt="商品案内-シャワーオール"></figure>
+                </a>
             </li>
         </ul>
     </section>
 
-<form action="mailto:hrksh.15@gmail.com" method="post" enctype="text/plain">
-  <p>名前:<input type="text" name="name"></p>
-  <p>お問合せ<br />
-    <textarea name="toiawase" cols="60" rows="5">
-    </textarea>
-  </p>
-  <p><input type="submit" value="送信"></p>
-</form>
 
-    <section>
+
+    <section class="section-wrapper-sp">
         <h2>動画紹介</h2>
         <ul class="movie">
-            <li>
+            <li class="fadeIn slide-bottom">
                 <p>介護⽤シャワー⼊浴装置<br>『美浴』</p>
                 <figure class="youtube"><iframe width="640" height="360" src="https://www.youtube.com/embed/-QZVI77_AAw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
             </li>
-            <li>
+            <li class="fadeIn slide-bottom">
                 <p>介護⽤コンパクトシャワー⼊浴装置<br>『シャワーオール』</p>
                 <figure class="youtube"><iframe width="640" height="360" src="https://www.youtube.com/embed/0pwUQq-amgg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
             </li>
@@ -215,16 +196,16 @@ pagerCustom: '.showroom_place, .showroom_pager'
 
 
 
-    <section class="section-wrapper">
+    <section class="section-wrapper section-wrapper-sp">
         <h2>⼊浴者の身体の状態に合わせてお選びいただけます</h2>
         <figure class="graph">
-            <img src="graph01.png" alt="入浴者の体に合わせて">
+            <img src="images/home/graph01.png" alt="入浴者の体に合わせて">
         </figure>
     </section>
 
 
 
-    <section>
+    <section class="section-wrapper-sp">
         <h2>体感ショールームのご案内</h2>
         <div class="showroom_in">
             <h3><span>1.</span>体感ショールームで できること</h3>
@@ -239,7 +220,7 @@ pagerCustom: '.showroom_place, .showroom_pager'
                 <dl>
                     <dt>
                         <figure>
-                            <img src="showroom_map.png" alt="体感ショールーム 日本地図">
+                            <img src="images/home/showroom_map.png" alt="体感ショールーム 日本地図">
                         </figure>
                         <ul class="showroom_place">
                             <li><a data-slide-index="0" href="#">東京ショールーム</a></li>
@@ -254,7 +235,7 @@ pagerCustom: '.showroom_place, .showroom_pager'
                         <ul class="bxslider">
                             <li>
                                 <figure>
-                                    <img src="showroom_info01.jpg">
+                                    <img src="images/home/showroom_info01.jpg">
                                 </figure>
                                 <div class="showroom_info_txt">
                                     <p>東京ショールーム</p>
@@ -283,7 +264,7 @@ pagerCustom: '.showroom_place, .showroom_pager'
                             </li>
                             <li>
                                 <figure>
-                                    <img src="showroom_info02.jpg">
+                                    <img src="images/home/showroom_info02.jpg">
                                 </figure>
                                 <div class="showroom_info_txt">
                                     <p>釧路ショールーム</p>
@@ -316,7 +297,7 @@ pagerCustom: '.showroom_place, .showroom_pager'
                             </li>
                             <li>
                                 <figure>
-                                    <img src="showroom_info03.jpg">
+                                    <img src="images/home/showroom_info03.jpg">
                                 </figure>
                                 <div class="showroom_info_txt">
                                     <p>旭川ショールーム</p>
@@ -349,7 +330,7 @@ pagerCustom: '.showroom_place, .showroom_pager'
                             </li>
                             <li>
                                 <figure>
-                                    <img src="showroom_info04.jpg">
+                                    <img src="images/home/showroom_info04.jpg">
                                 </figure>
                                 <div class="showroom_info_txt">
                                     <p>札幌ショールーム</p>
@@ -384,7 +365,7 @@ pagerCustom: '.showroom_place, .showroom_pager'
                             </li>
                             <li>
                                 <figure>
-                                    <img src="showroom_info05.jpg">
+                                    <img src="images/home/showroom_info05.jpg">
                                 </figure>
                                 <div class="showroom_info_txt">
                                     <p>福島ショールーム</p>
@@ -412,7 +393,7 @@ pagerCustom: '.showroom_place, .showroom_pager'
                             </li>
                             <li>
                                 <figure>
-                                    <img src="showroom_info06.jpg">
+                                    <img src="images/home/showroom_info06.jpg">
                                 </figure>
                                 <div class="showroom_info_txt">
                                     <p>神⼾体感ルーム</p>
@@ -454,7 +435,7 @@ pagerCustom: '.showroom_place, .showroom_pager'
 
         <div class="showroom_in">
             <h3><span>3.</span>体感ショールームのご来場前にご確認ください</h3>
-            <p class="mincho">予約制となっておりますので、<br class="pc">ご来場前のご予約をお願いいたします。</p>
+            <p class="showroom_in_text mincho">予約制となっておりますので、<br class="pc">ご来場前のご予約をお願いいたします。</p>
             <div class="item">
                 <p class="mincho">ご持参いただきたいもの<br>
                 ・⽔着等の濡れても問題ない⾐類<br>
@@ -468,7 +449,8 @@ pagerCustom: '.showroom_place, .showroom_pager'
 
 
 
-    <section id="cost">
+    <section id="cost" class="section-wrapper-sp">
+    <div id="running-cost">
         <div class="section-wrapper">
             <h2>ランニングコストと⼊浴介助負担を低減</h2>
         <h3>少ない湯量で⼊浴が可能なので、⽔道代・光熱費を削減します。</h3>
@@ -476,16 +458,18 @@ pagerCustom: '.showroom_place, .showroom_pager'
         上下⽔道、ガス料⾦を⼤幅に低減し、ランニングコストを削減します。</p>
 
         <ul class="cost01">
-            <li><img src="cost01.png" alt="お風呂1回あたりの水使用量"></li>
+            <li><img src="images/home/cost01.png" alt="お風呂1回あたりの水使用量"></li>
             <li class="arrow"><img src="images/home/cost_arrow.png" alt="矢印"></li>
-            <li><img src="cost02.png" alt="水道代年間使用量"></li>
+            <li><img src="images/home/cost02.png" alt="水道代年間使用量"></li>
         </ul>
 
         <h3>⼊浴介助時間を⼤幅に短縮し、介助者の負担を減らします。</h3>
         <p class="mincho">⼊浴介助時間は約10分!<br>
         貯湯式に⽐べ1/3と⼤幅に短縮されます。</p>
-        <figure class="cost02"><img src="cost03.png" alt="入浴介助時間の短縮図"></figure>
+        <figure class="cost02"><img src="images/home/cost03.png" alt="入浴介助時間の短縮図"></figure>
         </div>
+    </div>
+        
     </section>
 
 
@@ -493,7 +477,7 @@ pagerCustom: '.showroom_place, .showroom_pager'
     <section>
         <h2>導⼊までの流れ</h2>
         <ul class="flow">
-            <li>
+            <li class="fadeIn slide-bottom">
                 <dl>
                     <dt>
                         <h3>設置場所の確認</h3>
@@ -504,7 +488,7 @@ pagerCustom: '.showroom_place, .showroom_pager'
                     </dd>
                 </dl>
             </li>
-            <li>
+            <li class="fadeIn slide-bottom">
                 <dl>
                     <dt><h3>ご契約</h3></dt>
                     <dd>
@@ -513,7 +497,7 @@ pagerCustom: '.showroom_place, .showroom_pager'
                     </dd>
                 </dl>
             </li>
-            <li>
+            <li class="fadeIn slide-bottom">
                 <dl>
                     <dt><h3>設置⼯事</h3></dt>
                     <dd>
@@ -522,7 +506,7 @@ pagerCustom: '.showroom_place, .showroom_pager'
                     </dd>
                 </dl>
             </li>
-            <li>
+            <li class="fadeIn slide-bottom">
                 <dl>
                     <dt><h3>ご納品</h3></dt>
                     <dd>
@@ -543,6 +527,9 @@ pagerCustom: '.showroom_place, .showroom_pager'
 
 
 
+
+
+
 <!--フッター-->
 <footer>
     <div id="footer">
@@ -556,10 +543,21 @@ pagerCustom: '.showroom_place, .showroom_pager'
                 <li><a href="#">プライバシーポリシー</a></li>
                 <li><a href="#">サイトマップ</a></li>
             </ul>
+            <div class="foot_nav_address">
+                〒183-0035 東京都府中市四谷5-36<span class="foot_nav_map"><a href="#">Google Map</a></span>
+            </div>
+            <div class="foot_nav_copy">
+                Copyright © AIR WATER INC all rights reserved.
+            </div>
         </div>
     </div>
 </footer>
 <!--フッター-->
 </div><!--wrapper-->
+
+
+
+<script src="js/script.js"></script>
+
 </body>
 </html>
