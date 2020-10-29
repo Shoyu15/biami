@@ -28,24 +28,6 @@ h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bw
 <!--ページ内スクロール-->
 <script type="text/javascript" src="js/smoothScroll.js"></script>
 
-<!--グロナビ-->
-<script>
-$(function() {
-$(".smp_menu_btn").on("click", function() {
-$(".smp_menu_btn").toggleClass("active");
-$(".smp_nav").fadeToggle();
-});
-});
-</script>
-<script type="text/javascript">
-$(function(){
-$(window).on('load resize', function(){
-var headerHight = $("#header").outerHeight(); //ヘッダの高さ
-$('#header dl dd ul li ul').css('top',headerHight);
-});
-});
-</script>
-
 <!--スライダー-->
 <link href="js/jquery.bxslider.css" rel="stylesheet" type="text/css" />
 <script src="js/jquery.bxslider.min.js"></script>
